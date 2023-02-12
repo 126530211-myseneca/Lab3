@@ -14,8 +14,13 @@ def read_file_string(file_name):
         f = open(file_name, 'r')
         return f.read()
 
+def helloWorld():
+    print("Hello World")
+
+
 if __name__ == '__main__':
 	file_name = input("Enter the file name you want to write .txt:")
 	c_name = input("Enter your name: ")
 	write_text_file(file_name, c_name)
-	print(read_file_string(file_name))                                                                                                                                        1,17          Top
+	print(read_file_string(file_name))                                                                                                      
+    helloWorld()
